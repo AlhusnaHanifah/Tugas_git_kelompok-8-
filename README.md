@@ -4,6 +4,7 @@ Anggota :
 1. Alhusna Hanifah (2208107010060)
 2. Widya Nurul Sukma (2208107010054)
 
+
 Topik : Bank
 
 Fenomena : Seorang Nasabah ingin melakukan transaksi keuangan seperti menarik, menyimpan dan transfer uang. 
