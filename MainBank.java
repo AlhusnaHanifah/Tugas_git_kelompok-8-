@@ -34,6 +34,7 @@ public class MainBank {
     public MainBank(){
 
     }
+    
     public static void main(String[] args) {
         // Inisialisasi objek Scanner untuk menerima input dari pengguna
         Scanner scanner = new Scanner(System.in);
@@ -114,6 +115,7 @@ public class MainBank {
 
                 // Menyimpan informasi ke dalam file txt
                 bank.saveAccountInfo(newCheckingAccount.getAccountNumber(), newCheckingAccount.getOwner(), saldoGiro);
+                
             } else {
                 System.out.println("Pilihan jenis akun tidak valid.");
             }
@@ -124,7 +126,6 @@ public class MainBank {
             System.out.println();
             System.out.print("Masukkan nomor akun Anda : ");
             nomorAkun = scanner.next();
-        
             boolean akunValid = false;
         
             // Mengecek nomor akun pada file account_info.txt
@@ -182,7 +183,6 @@ public class MainBank {
                     } else {
                         System.out.println("Nomor akun tidak valid.");
                     }
-                    
                     break;
 
                 case 3:
@@ -195,12 +195,10 @@ public class MainBank {
                     } else {
                         System.out.println("Nomor akun tidak valid.");
                     }
-
                     break;
 
                 case 4:
                     // Transfer Uang
-
                     double saldoAkun3 = accountInfo.get(nomorAkun);
                     if (saldoAkun3 != 0.0) {
                         System.out.print("Masukkan nomor akun tujuan transfer: ");
