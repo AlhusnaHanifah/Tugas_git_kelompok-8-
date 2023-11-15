@@ -1,3 +1,32 @@
+/**
+* Class Bank digunakan untuk merepresentasikan suatu bank dengan fungsionalitas dasar, seperti
+* menambahkan nasabah baru, membuat akun baru, dan mengelola informasi akun. Kelas ini juga
+* menyimpan informasi nomor akun ke dalam file dan memiliki beberapa metode untuk membaca dan
+* menyimpan informasi akun.
+*
+* Atribut:
+* - customers: List untuk menyimpan objek Customer yang merupakan nasabah bank.
+* - accountNumbers: List untuk menyimpan semua nomor akun yang telah dibuat.
+* - accountNumbersFile: Nama file yang digunakan untuk menyimpan informasi nomor akun.
+*
+* Method Utama pada Class:
+* - addCustomer: Menambahkan nasabah baru ke dalam daftar pelanggan.
+* - getCustomers: Mengembalikan daftar pelanggan bank.
+* - createAccount: Membuat akun baru untuk nasabah dan menyimpan informasi akun ke dalam file.
+* - getAccountByNumber: Mengembalikan objek akun berdasarkan nomor akun dari seorang nasabah.
+*
+* Method Pendukung pada Class:
+* - generateAccountNumber: Menghasilkan nomor akun baru secara otomatis.
+* - loadAccountNumbers: Membaca semua nomor akun dari file.
+* - saveAccountNumbers: Menyimpan semua nomor akun ke dalam file.
+* - loadAccountInfo: Membaca informasi akun (nomor akun, nama pemilik, saldo) dari file.
+* - saveAccountInfo: Menyimpan informasi akun ke dalam file.
+* - getOwnerNameByAccountNumber: Mendapatkan nama pemilik berdasarkan nomor akun.
+*
+* @author : Widya Nurul Sukma
+* @version : 14-11-2023
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 import java.io.*;
