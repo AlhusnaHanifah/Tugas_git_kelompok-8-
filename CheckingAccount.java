@@ -9,7 +9,7 @@
 * saldo mencukupi untuk jumlah penarikan beserta biaya layanan. Jika cukup, saldo dikurangi dan pesan berhasil
 * dicetak. Jika tidak, pesan kesalahan mencetak bahwa saldo tidak mencukupi untuk penarikan.
 *
-* @author : Widya Nurul Sukma
+* @author  : Widya Nurul Sukma
 * @version : 14-11-2023
 */
     
