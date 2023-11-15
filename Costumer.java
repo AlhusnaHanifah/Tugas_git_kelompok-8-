@@ -1,3 +1,23 @@
+/**
+* Class Customer adalah representasi dari seorang nasabah (customer) dalam sistem perbankan.
+* Kelas ini memiliki atribut-atribut seperti nama, alamat, nomor telepon, dan daftar akun yang dimiliki.
+*
+* Konstruktor Customer digunakan untuk inisialisasi objek dengan informasi dasar seperti nama,
+* alamat, dan nomor telepon. Selain itu, terdapat konstruktor overload tanpa parameter yang digunakan
+* untuk pembuatan objek default.
+*
+* Class ini menggunakan beberapa method:
+* Method addAccount digunakan untuk menambahkan akun baru ke dalam daftar akun nasabah.
+* Method getAccounts digunakan untuk mendapatkan daftar akun yang dimiliki oleh nasabah.
+* Method getOwner digunakan untuk mendapatkan nama pemilik nasabah.
+* Method getAccountByNumber digunakan untuk mendapatkan objek akun berdasarkan nomor akun.
+* Method hasAccount digunakan untuk memeriksa apakah nasabah memiliki akun dengan nomor tertentu.
+* Kode program ini memanfaatkan objek ArrayList untuk menyimpan daftar akun nasabah.
+*
+* @author  : Widya Nurul Sukma
+* @version : 14-11-2023
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 
