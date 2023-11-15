@@ -1,3 +1,18 @@
+/**
+* Class CheckingAccount adalah turunan dari kelas Account, digunakan untuk merepresentasikan akun bank khusus jenis Checking.
+*
+* Konstruktor CheckingAccount digunakan untuk inisialisasi objek dengan menyediakan informasi dasar seperti nomor akun,
+* saldo awal, pemilik akun, dan biaya layanan. Konstruktor ini memanggil konstruktor kelas induk (Account) menggunakan
+* kata kunci 'super' untuk menginisialisasi atribut dasar akun.
+*
+* Method withdraw di-override untuk menangani proses penarikan uang dari CheckingAccount. Proses ini memeriksa apakah
+* saldo mencukupi untuk jumlah penarikan beserta biaya layanan. Jika cukup, saldo dikurangi dan pesan berhasil
+* dicetak. Jika tidak, pesan kesalahan mencetak bahwa saldo tidak mencukupi untuk penarikan.
+*
+* @author : Widya Nurul Sukma
+* @version : 14-11-2023
+*/
+    
 // Class CheckingAccount turunan dari Account
 public class CheckingAccount extends Account {
     private double serviceFee; // Biaya layanan untuk CheckingAccount
