@@ -1,3 +1,31 @@
+/**
+ * Kelas MainBank merupakan kelas utama (entry point) program untuk aplikasi perbankan sederhana.
+ * Pengguna dapat membuat akun, melakukan login, dan melakukan berbagai transaksi seperti
+ * pengecekan saldo, setor uang, tarik tunai, dan transfer uang antar akun.
+ *
+ * Kelas ini menggunakan objek Bank, Customer, dan Transaction untuk mengelola data pelanggan,
+ * informasi akun, serta melakukan transaksi keuangan.
+ *
+ * Pengguna akan diminta untuk memasukkan informasi pribadi saat membuat akun baru.
+ * Selanjutnya, mereka dapat login menggunakan nomor akun untuk mengakses layanan perbankan.
+ *
+ * Fitur:
+ * - Pengecekan akun: Pengguna dapat memeriksa keberadaan akun berdasarkan nomor akun.
+ * - Pembuatan Akun: Pengguna dapat membuat akun tabungan atau giro dengan memilih jenis akun.
+ * - Setor Uang: Pengguna dapat melakukan setoran uang ke dalam akun mereka.
+ * - Tarik Tunai: Pengguna dapat melakukan penarikan uang dari akun mereka.
+ * - Transfer Uang: Pengguna dapat mentransfer uang dari satu akun ke akun lainnya.
+ *
+ * Program akan menyimpan informasi akun ke dalam file "account_info.txt" dan nomor akun ke dalam
+ * file "account_numbers.txt" untuk mempertahankan data antar sesi program.
+ *
+ * Program akan menampilkan menu interaktif yang memandu pengguna dalam menggunakan layanan perbankan
+ * dan memberikan umpan balik terkait setiap transaksi yang dilakukan.
+ *
+ * @author    : Alhusna Hanifah
+ * @version   : 14-11-2023
+ */
+
 import java.util.Scanner;
 import java.util.Map;
 
