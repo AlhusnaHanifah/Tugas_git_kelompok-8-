@@ -23,7 +23,7 @@
 * - saveAccountInfo: Menyimpan informasi akun ke dalam file.
 * - getOwnerNameByAccountNumber: Mendapatkan nama pemilik berdasarkan nomor akun.
 *
-* @author : Widya Nurul Sukma
+* @author  : Widya Nurul Sukma
 * @version : 14-11-2023
 */
 
