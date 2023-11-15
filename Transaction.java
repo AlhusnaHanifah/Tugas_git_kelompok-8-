@@ -1,6 +1,16 @@
+/**
+ * Kelas Transaction merepresentasikan transaksi keuangan dalam sistem perbankan.
+ * Transaksi ini dapat berupa setoran (deposit), penarikan (withdrawal), atau transfer antara akun.
+ *
+ * Metode-metode tersebut dirancang sebagai metode statis yang dapat diakses langsung tanpa
+ * menginstansiasi objek Transaction.
+ *
+ * @author    : Alhusna Hanifah
+ * @version   : 14-11-2023
+ */
+
 import java.util.Map;
 
-// Kelas Transaksi (Transaction)
 public class Transaction {
     static Bank bank = new Bank();
 
